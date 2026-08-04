@@ -1,0 +1,24 @@
+{
+  "accuracies": [
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1.0
+  ],
+  "components": 125000,
+  "agents_per_component": 8,
+  "test_seeds": 10,
+  "timing_repeats": 7,
+  "workers": 4,
+  "master_seed": 20260730,
+  "correct_beta": [
+    4.0,
+    2.0
+  ],
+  "incorrect_beta": [
+    2.0,
+    4.0
+  ],
+  "reliability_span": 0.12
+}
