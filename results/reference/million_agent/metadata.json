@@ -1,0 +1,38 @@
+{
+  "accuracies": [
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1.0
+  ],
+  "components": 125000,
+  "agents_per_component": 8,
+  "test_seeds": 10,
+  "timing_repeats": 7,
+  "workers": 4,
+  "master_seed": 20260730,
+  "correct_beta": [
+    4.0,
+    2.0
+  ],
+  "incorrect_beta": [
+    2.0,
+    4.0
+  ],
+  "total_agents": 1000000,
+  "graph_structure": "one block-sparse graph with 125000 independent eight-agent output-selection components; each node is one agent and produces one actual output",
+  "fsm_policy": "first actual output crossing validation-tuned verifier threshold; fallback to first",
+  "sfsm_policy": "maximum posterior correctness among actual outputs",
+  "timing_scope": "orchestration selection only; agent/tool generation excluded; process pool startup excluded",
+  "platform": "Linux-6.12.13-x86_64-with-glibc2.41",
+  "python": "3.13.5",
+  "cpu_count": 5,
+  "thresholds": {
+    "0.2": 0.6400000000000001,
+    "0.4": 0.6600000000000001,
+    "0.6": 0.68,
+    "0.8": 0.7050000000000001,
+    "1.0": 0.3
+  }
+}

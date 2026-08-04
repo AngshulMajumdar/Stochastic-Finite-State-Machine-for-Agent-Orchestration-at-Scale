@@ -1,0 +1,343 @@
+{
+  "config": {
+    "sizes": [
+      32,
+      64,
+      128
+    ],
+    "loops": [
+      2,
+      4,
+      6
+    ],
+    "strengths": [
+      0.4,
+      0.8,
+      1.2
+    ],
+    "seeds": 10,
+    "instances": 270
+  },
+  "summary": {
+    "Hard FSM": {
+      "instances": 270,
+      "kl_excess_mean": 4.41101134786388,
+      "kl_excess_median": 4.346597991697777,
+      "brier_excess_mean": 0.165632636432723,
+      "terminal_excess_risk_mean": 0.05621943205612692,
+      "abs_prob_error_mean": 0.3605535950067292,
+      "abs_prob_error_p95": 0.7336636195358135,
+      "ece": 0.36055359500672934,
+      "runtime_ms_median": 3.6199200003466103,
+      "runtime_ms_mean": 4.331624407388046
+    },
+    "Mean field": {
+      "instances": 270,
+      "kl_excess_mean": 2.2755062466235616,
+      "kl_excess_median": 1.6032430786351362,
+      "brier_excess_mean": 0.11735767378103551,
+      "terminal_excess_risk_mean": 0.020811889356411848,
+      "abs_prob_error_mean": 0.30702538987253264,
+      "abs_prob_error_p95": 0.5706967240448576,
+      "ece": 0.3070257698501542,
+      "runtime_ms_median": 9.22347499999887,
+      "runtime_ms_mean": 11.605193633325447
+    },
+    "Gibbs MC": {
+      "instances": 270,
+      "kl_excess_mean": 0.05978692181952299,
+      "kl_excess_median": 0.0044837749422069004,
+      "brier_excess_mean": 0.019153056137621787,
+      "terminal_excess_risk_mean": 0.03462220045312574,
+      "abs_prob_error_mean": 0.07994354516630356,
+      "abs_prob_error_p95": 0.3367425075518869,
+      "ece": 0.03017490541345847,
+      "runtime_ms_median": 5.205001499689388,
+      "runtime_ms_mean": 6.1036294481305555
+    },
+    "Loopy Bethe": {
+      "instances": 270,
+      "kl_excess_mean": 0.025282111218872697,
+      "kl_excess_median": 0.0006757978412881001,
+      "brier_excess_mean": 0.004891298175257344,
+      "terminal_excess_risk_mean": 3.1656431480984815e-05,
+      "abs_prob_error_mean": 0.03922014828833997,
+      "abs_prob_error_p95": 0.15462403293647417,
+      "ece": 0.02760401846385732,
+      "runtime_ms_median": 19.969883999692684,
+      "runtime_ms_mean": 22.508813440742447
+    },
+    "Proposed FBS-SD": {
+      "instances": 270,
+      "kl_excess_mean": 0.0,
+      "kl_excess_median": 0.0,
+      "brier_excess_mean": 0.0,
+      "terminal_excess_risk_mean": 0.0,
+      "abs_prob_error_mean": 0.0,
+      "abs_prob_error_p95": 0.0,
+      "ece": 0.0,
+      "runtime_ms_median": 78.19928150047417,
+      "runtime_ms_mean": 93.20460111853039
+    }
+  },
+  "by_strength": {
+    "0.4": {
+      "Hard FSM": {
+        "kl_excess_mean": 4.809505859979108,
+        "abs_prob_error_mean": 0.39458467114467527,
+        "terminal_excess_risk_mean": 0.023827110006435972
+      },
+      "Mean field": {
+        "kl_excess_mean": 0.685124343591001,
+        "abs_prob_error_mean": 0.3208263626275439,
+        "terminal_excess_risk_mean": 0.003486416471291605
+      },
+      "Gibbs MC": {
+        "kl_excess_mean": 0.0009855633581904203,
+        "abs_prob_error_mean": 0.016297815405680892,
+        "terminal_excess_risk_mean": 0.0012964176499298422
+      },
+      "Loopy Bethe": {
+        "kl_excess_mean": 6.880649288314594e-05,
+        "abs_prob_error_mean": 0.0033444764791650786,
+        "terminal_excess_risk_mean": 0.0
+      },
+      "Proposed FBS-SD": {
+        "kl_excess_mean": 0.0,
+        "abs_prob_error_mean": 0.0,
+        "terminal_excess_risk_mean": 0.0
+      }
+    },
+    "0.8": {
+      "Hard FSM": {
+        "kl_excess_mean": 3.948328691358767,
+        "abs_prob_error_mean": 0.3262766636528439,
+        "terminal_excess_risk_mean": 0.03278109052201615
+      },
+      "Mean field": {
+        "kl_excess_mean": 2.715284469181012,
+        "abs_prob_error_mean": 0.30177151599511765,
+        "terminal_excess_risk_mean": 0.00918376317197415
+      },
+      "Gibbs MC": {
+        "kl_excess_mean": 0.015478896442557325,
+        "abs_prob_error_mean": 0.05536745360767854,
+        "terminal_excess_risk_mean": 0.005916270380329433
+      },
+      "Loopy Bethe": {
+        "kl_excess_mean": 0.006474041471510683,
+        "abs_prob_error_mean": 0.03084740536851292,
+        "terminal_excess_risk_mean": 9.496929444295445e-05
+      },
+      "Proposed FBS-SD": {
+        "kl_excess_mean": 0.0,
+        "abs_prob_error_mean": 0.0,
+        "terminal_excess_risk_mean": 0.0
+      }
+    },
+    "1.2": {
+      "Hard FSM": {
+        "kl_excess_mean": 4.475199492253765,
+        "abs_prob_error_mean": 0.36079945022266807,
+        "terminal_excess_risk_mean": 0.11205009563992865
+      },
+      "Mean field": {
+        "kl_excess_mean": 3.4261099270986715,
+        "abs_prob_error_mean": 0.2984782909949361,
+        "terminal_excess_risk_mean": 0.04976548842596978
+      },
+      "Gibbs MC": {
+        "kl_excess_mean": 0.1628963056578212,
+        "abs_prob_error_mean": 0.16816536648555125,
+        "terminal_excess_risk_mean": 0.09665391332911794
+      },
+      "Loopy Bethe": {
+        "kl_excess_mean": 0.06930348569222428,
+        "abs_prob_error_mean": 0.08346856301734193,
+        "terminal_excess_risk_mean": 0.0
+      },
+      "Proposed FBS-SD": {
+        "kl_excess_mean": 0.0,
+        "abs_prob_error_mean": 0.0,
+        "terminal_excess_risk_mean": 0.0
+      }
+    }
+  },
+  "by_loops": {
+    "2": {
+      "Hard FSM": {
+        "kl_excess_mean": 3.711285126743094,
+        "abs_prob_error_mean": 0.30803083446665996,
+        "terminal_excess_risk_mean": 0.023721418609750335
+      },
+      "Mean field": {
+        "kl_excess_mean": 1.913879298008715,
+        "abs_prob_error_mean": 0.2787330552513162,
+        "terminal_excess_risk_mean": 0.019070512678567617
+      },
+      "Gibbs MC": {
+        "kl_excess_mean": 0.05467583698071199,
+        "abs_prob_error_mean": 0.07653696538077408,
+        "terminal_excess_risk_mean": 0.04049826853762057
+      },
+      "Loopy Bethe": {
+        "kl_excess_mean": 0.010067813171867227,
+        "abs_prob_error_mean": 0.03056175738823463,
+        "terminal_excess_risk_mean": 0.0
+      },
+      "Proposed FBS-SD": {
+        "kl_excess_mean": 0.0,
+        "abs_prob_error_mean": 0.0,
+        "terminal_excess_risk_mean": 0.0
+      }
+    },
+    "4": {
+      "Hard FSM": {
+        "kl_excess_mean": 5.110428087831368,
+        "abs_prob_error_mean": 0.4125749741953467,
+        "terminal_excess_risk_mean": 0.093074517704825
+      },
+      "Mean field": {
+        "kl_excess_mean": 2.4116417978520914,
+        "abs_prob_error_mean": 0.3206249728431818,
+        "terminal_excess_risk_mean": 0.015616111944464807
+      },
+      "Gibbs MC": {
+        "kl_excess_mean": 0.040513115855142584,
+        "abs_prob_error_mean": 0.07567168120083391,
+        "terminal_excess_risk_mean": 0.022909392385937855
+      },
+      "Loopy Bethe": {
+        "kl_excess_mean": 0.021199992098007513,
+        "abs_prob_error_mean": 0.03871525486458733,
+        "terminal_excess_risk_mean": 0.0
+      },
+      "Proposed FBS-SD": {
+        "kl_excess_mean": 0.0,
+        "abs_prob_error_mean": 0.0,
+        "terminal_excess_risk_mean": 0.0
+      }
+    },
+    "6": {
+      "Hard FSM": {
+        "kl_excess_mean": 4.411320829017177,
+        "abs_prob_error_mean": 0.36105497635818073,
+        "terminal_excess_risk_mean": 0.051862359853805454
+      },
+      "Mean field": {
+        "kl_excess_mean": 2.5009976440098782,
+        "abs_prob_error_mean": 0.3217181415230997,
+        "terminal_excess_risk_mean": 0.027749043446203107
+      },
+      "Gibbs MC": {
+        "kl_excess_mean": 0.08417181262271436,
+        "abs_prob_error_mean": 0.08762198891730268,
+        "terminal_excess_risk_mean": 0.04045894043581877
+      },
+      "Loopy Bethe": {
+        "kl_excess_mean": 0.04457852838674335,
+        "abs_prob_error_mean": 0.048383432612197956,
+        "terminal_excess_risk_mean": 9.496929444295445e-05
+      },
+      "Proposed FBS-SD": {
+        "kl_excess_mean": 0.0,
+        "abs_prob_error_mean": 0.0,
+        "terminal_excess_risk_mean": 0.0
+      }
+    }
+  },
+  "by_size": {
+    "32": {
+      "Hard FSM": {
+        "runtime_ms_median": 1.8466445003468832,
+        "runtime_ms_mean": 1.8793239222456275,
+        "abs_prob_error_mean": 0.35045881805459966
+      },
+      "Mean field": {
+        "runtime_ms_median": 6.655561000570742,
+        "runtime_ms_mean": 7.865677733358704,
+        "abs_prob_error_mean": 0.2899767135115479
+      },
+      "Gibbs MC": {
+        "runtime_ms_median": 2.581419500074844,
+        "runtime_ms_mean": 2.564140577800976,
+        "abs_prob_error_mean": 0.048827510213245065
+      },
+      "Loopy Bethe": {
+        "runtime_ms_median": 11.876926500008267,
+        "runtime_ms_mean": 13.095680800031712,
+        "abs_prob_error_mean": 0.047760592443504606
+      },
+      "Proposed FBS-SD": {
+        "runtime_ms_median": 37.88219800026127,
+        "runtime_ms_mean": 44.10043290004574,
+        "abs_prob_error_mean": 0.0
+      }
+    },
+    "64": {
+      "Hard FSM": {
+        "runtime_ms_median": 3.6199200003466103,
+        "runtime_ms_mean": 3.6780254888071795,
+        "abs_prob_error_mean": 0.38598964201184
+      },
+      "Mean field": {
+        "runtime_ms_median": 8.569185999931506,
+        "runtime_ms_mean": 10.801210044398127,
+        "abs_prob_error_mean": 0.33200872094359035
+      },
+      "Gibbs MC": {
+        "runtime_ms_median": 5.205001499689388,
+        "runtime_ms_mean": 5.166857222169104,
+        "abs_prob_error_mean": 0.0764538073629792
+      },
+      "Loopy Bethe": {
+        "runtime_ms_median": 19.70886449998943,
+        "runtime_ms_mean": 20.42902171110149,
+        "abs_prob_error_mean": 0.040817321794312154
+      },
+      "Proposed FBS-SD": {
+        "runtime_ms_median": 73.4848994998174,
+        "runtime_ms_mean": 90.48678607777119,
+        "abs_prob_error_mean": 0.0
+      }
+    },
+    "128": {
+      "Hard FSM": {
+        "runtime_ms_median": 7.3886475001927465,
+        "runtime_ms_mean": 7.43752381111133,
+        "abs_prob_error_mean": 0.34521232495374765
+      },
+      "Mean field": {
+        "runtime_ms_median": 12.417531999744824,
+        "runtime_ms_mean": 16.14869312221951,
+        "abs_prob_error_mean": 0.29909073516245943
+      },
+      "Gibbs MC": {
+        "runtime_ms_median": 10.632192999764811,
+        "runtime_ms_mean": 10.579890544421586,
+        "abs_prob_error_mean": 0.11454931792268641
+      },
+      "Loopy Bethe": {
+        "runtime_ms_median": 32.77842750048876,
+        "runtime_ms_mean": 34.001737811094145,
+        "abs_prob_error_mean": 0.029082530627203156
+      },
+      "Proposed FBS-SD": {
+        "runtime_ms_median": 100.40308449970325,
+        "runtime_ms_mean": 145.02658437777427,
+        "abs_prob_error_mean": 0.0
+      }
+    }
+  },
+  "validation": {
+    "brute_force_max_mean_error": 4.9960036108132044e-15,
+    "brute_force_max_logz_error": 3.552713678800501e-15,
+    "mean_cutset_size": 1.711111111111111,
+    "max_cutset_size": 4,
+    "mean_initial_sd_residual": 220.61469423051554,
+    "max_initial_sd_residual": 7298.359802571044,
+    "main_mean_cutset_size": 1.674074074074074,
+    "main_max_cutset_size": 6,
+    "bethe_convergence_rate": 0.9962962962962963
+  }
+}
