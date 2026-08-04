@@ -1,0 +1,22 @@
+Reference environment
+=====================
+Generated: 2026-07-30T16:23:48Z
+Python 3.13.5
+Linux d1e51b6989f8 6.12.13 #1 SMP Thu Jul 23 17:57:28 UTC 2026 x86_64 GNU/Linux
+
+Architecture:                         x86_64
+CPU(s):                               5
+On-line CPU(s) list:                  0-4
+Model name:                           Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz
+Thread(s) per core:                   1
+Core(s) per socket:                   5
+Socket(s):                            1
+NUMA node0 CPU(s):                    0-4
+
+Package versions:
+numpy==2.3.5
+pandas==2.2.3
+matplotlib==3.10.8
+numba==0.65.1
+networkx==3.6.1
+scipy==1.17.0

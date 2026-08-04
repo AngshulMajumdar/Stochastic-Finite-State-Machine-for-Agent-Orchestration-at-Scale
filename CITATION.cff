@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "Stochastic Finite-State Orchestration of Partially Reliable Agents"
+message: "Please cite this software release and engineering white paper when using the implementation or results."
+type: software
+authors:
+  - family-names: Majumdar
+    given-names: Angshul
+    email: angshul@iiitd.ac.in
+    affiliation: Indraprastha Institute of Information Technology Delhi
+version: 1.1.0
+date-released: 2026-07-30
+preferred-citation:
+  type: article
+  title: "Stochastic Finite-State Orchestration of Partially Reliable Agents: Information Limits, Field-Theoretic Inference, and MapReduce at Million-Agent Scale"
+  authors:
+    - family-names: Majumdar
+      given-names: Angshul
+  year: 2026
